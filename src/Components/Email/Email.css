@@ -1,0 +1,186 @@
+.email-cont{
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    margin-top: 3rem;
+    background-color: rgb(36, 34, 33);
+    display: flex;
+    /* align-items: center; */
+    padding: 2rem 2.5rem;
+
+    gap: 10rem;
+  
+}
+  
+  
+.left-j{
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    width: 45%;
+    padding: auto;
+    margin-top: 1rem;
+    margin-left:2rem;
+    height: auto;
+    box-sizing: border-box;
+    /* background-color: aqua; */
+    text-transform: uppercase;
+    position: relative;
+   }
+  .left-j>hr{
+    position: absolute;
+         width: 10.5rem;
+         border: 3px solid gold;
+         border-radius: 20%;
+         margin: -10px 0 ;
+  }
+  /* From Uiverse.io by david-mohseni */ 
+.wrapper {
+  display: inline-flex;
+  list-style: none;
+  height: 120px;
+  width: 100%;
+  margin-left: -4rem;
+  padding-top: 40px;
+  font-family: "Poppins", sans-serif;
+  justify-content: center;
+}
+
+.wrapper .icon {
+  position: relative;
+  background: #fff;
+  border-radius: 50%;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip {
+  position: absolute;
+  top: 0;
+  font-size: 14px;
+  background: #fff;
+  color: #fff;
+  padding: 5px 8px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip::before {
+  position: absolute;
+  content: "";
+  height: 8px;
+  width: 8px;
+  background: #fff;
+  bottom: -3px;
+  left: 50%;
+  transform: translate(-50%) rotate(45deg);
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .icon:hover .tooltip {
+  top: -45px;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.wrapper .icon:hover span,
+.wrapper .icon:hover .tooltip {
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper .facebook:hover,
+.wrapper .facebook:hover .tooltip,
+.wrapper .facebook:hover .tooltip::before {
+  background: #1877f2;
+  color: #fff;
+}
+
+.wrapper .twitter:hover,
+.wrapper .twitter:hover .tooltip,
+.wrapper .twitter:hover .tooltip::before {
+  background: #1da1f2;
+  color: #fff;
+}
+
+.wrapper .instagram:hover,
+.wrapper .instagram:hover .tooltip,
+.wrapper .instagram:hover .tooltip::before {
+  background: #e4405f;
+  color: #fff;
+}
+
+  .right-j{
+    width: 45%;
+    height: auto;
+    box-sizing: border-box;
+    /* background-color: aqua; */
+  }
+  /* From Uiverse.io by StefanR1901 */ 
+.colorful-form {
+  width: 450px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.form-input {
+  width: 95%;
+  padding: 10px;
+  border: none;
+  background-color: #fff;
+  color: #333;
+  border-radius: 5px;
+}
+
+textarea.form-input {
+  height: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(46, 79, 209);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-weight: 400;
+  font-size:1rem;
+  cursor: pointer;
+  transition: 1s ease-out;
+
+}
+
+.form-button:hover {
+transform: scale(0.9);
+}
+
+  
+  
+  
